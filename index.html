@@ -6,45 +6,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Creatives</title>
 	<meta name="description" content="Описание страницы сайта.">
-    <link href="css/style.css" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:700" rel="stylesheet">
     <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 	<header>
-		<div class="main-nav">
+        <div class="main-wrap">
             <div class="container">
-                <div class="main-icon">
-                    <span>cs</span>
+                <div class="main-bar">
+                    <div class="main-icon">
+                        <span>cs</span>
+                    </div>
+                    <nav class="main-nav">
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Pages</a></li>
+                            <li><a href="#">Features</a></li>
+                            <li><a href="#">Extensions</a></li>
+                            <li><a href="#">Tutorials</a></li>
+                            <li><a href="#">Contact us</a></li>
+                        </ul>
+                    </nav>
+                    <div class="main-social">
+                        <ul>
+                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fab fa-skype"></i></a></li>
+                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                        </ul>
+                    </div>
                 </div>
-                <nav>
-                    <ul>
-                        <li><a href="#">Pages</a></li>
-                        <li><a href="#">Features</a></li>
-                        <li><a href="#">Extensions</a></li>
-                        <li><a href="#">Tutorials</a></li>
-                        <li><a href="#">Contact us</a></li>
-                        <li><a href="#">Home</a></li>
-                    </ul>
-                </nav>
-                <div class="main-social">
-                    <ul>
-                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fab fa-skype"></i></a></li>
-                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                    </ul>
-                </div>
-                </div>
-                <h1>Creatives</h1>
-                <span>Power by PSDfreebies.com</span>
-                <button>
-                    <a href="#">Scroll Down <i class="fas fa-angle-down"></i></a>
-                </button>
             </div>
+        </div>
+        <div class="container">
+            <div class="main-info">
+                <h1>Creatives</h1>
+                <p>Power by PSDfreebies.com</p>
+                <button>
+                    <a href="#agency"><span>Scroll Down</span> <i class="fas fa-angle-down"></i></a>
+                </button>
+            </div>    
+        </div>
     </header>
 
-    <section class="awesome">
+    <section id="agency" class="awesome">
         <div class="container">
             <div class="center-wrap">
                 <h2>We Are An Awesome Agency</h2>
@@ -77,6 +85,7 @@
             </div>
         </div>
     </section>
+
     <section class="akita">
         <div class="container">
             <div class="akita-info">
@@ -108,8 +117,8 @@
                     posuere consectetur </p>
             </div>
         </div>
-        
-    </section>	
+    </section>
+
     <section class="blog">
         <div class="container">
             <div class="center-wrap">
@@ -168,8 +177,8 @@
                     elit. Sed posuere consectetur est at lobortis.</p>
             </div>
         </div>
-        
     </section>
+
     <section class="akita-mobile">
         <div class="container">
             <h2>Akita Inu Dog</h2>
@@ -182,8 +191,8 @@
             <span>Different Headers & Layout</span>
             <img src="img/mobile-version.png" alt="Мобильный вариант">
         </div>
-        
     </section>
+
     <section class="team">
         <div class="container">
             <div class="center-wrap">
@@ -238,5 +247,6 @@
             </address>
         </div>
     </footer>
+
 </body>
 </html>

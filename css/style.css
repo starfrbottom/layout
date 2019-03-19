@@ -1,0 +1,197 @@
+/* ====================
+        font-family
+======================*/
+@font-face {
+  font-family: 'MyriadPro-Regular';
+  src: url('/font/MyriadPro/MyriadPro-Regular.eot');
+  src: url('/font/MyriadPro/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
+       url('/font/MyriadPro/MyriadPro-Regular.ttf') format('truetype'),
+       url('/font/MyriadPro/MyriadPro-Regular.woff') format('woff'),
+       url('/font/MyriadPro/MyriadPro-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham-Medium';
+  src: url('/font/Gotham/Gotham-Medium.eot');
+  src: url('/font/Gotham/Gotham-Medium.eot?#iefix') format('embedded-opentype'),
+       url('/font/Gotham/Gotham-Medium.ttf') format('truetype'),
+       url('/font/Gotham/Gotham-Medium.woff') format('woff'),
+       url('/font/Gotham/Gotham-Medium.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham-Book';
+  src: url('/font/Gotham/Gotham-Book.eot');
+  src: url('/font/Gotham/Gotham-Book.eot?#iefix') format('embedded-opentype'),
+       url('/font/Gotham/Gotham-Book.ttf') format('truetype'),
+       url('/font/Gotham/Gotham-Book.woff') format('woff'),
+       url('/font/Gotham/Gotham-Book.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham-Bold';
+  src: url('Gotham-Bold.eot');
+  src: url('Gotham-Bold.eot?#iefix') format('embedded-opentype'),
+       url('Gotham-Bold.ttf') format('truetype'),
+       url('Gotham-Bold.woff') format('woff'),
+       url('Gotham-Bold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+/* ====================
+        Typography
+======================*/
+body {
+    font: 15px/24px 'Gotham-Book', sans-serif;
+    background: #222;
+    color: #fff;
+}
+
+h1 {
+    font: 153px  'Gotham-Bold', sans-serif;
+    letter-spacing: -2px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+h2 {
+    font: 38px/45px  sans-serif;
+}
+
+h3 {
+    font: 18px/36px  sans-serif;
+}
+
+h2, h3 {
+    text-transform: uppercase;
+    font-family: 'Gotham-Medium', sans-serif;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:valid {
+  color: red;
+}
+
+/* ====================
+        Container
+======================*/
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* ====================
+        Header
+======================*/
+header {
+  background: url(/img/bg-header.jpg) center no-repeat #222;
+  background-size: cover;
+}
+
+.main-bar li,
+.main-bar nav,
+.main-bar .main-social,
+.main-bar .main-icon {
+  display: inline-block;
+}
+
+.main-wrap {
+  border-bottom: 2px solid rgba(204, 204, 204, 0.3);
+}
+
+.main-bar {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 22px;
+  padding-bottom: 20px;
+  
+}
+
+.main-bar ul {
+  display: flex;
+  justify-content: space-between;
+  font: 20px 'MyriadPro-Regular', sans-serif;
+}
+
+.main-social ul {
+  width: 122px;
+}
+
+.main-nav ul {
+  width: 660px;
+  padding-left: 300px;
+}
+
+.main-nav ul a:hover {
+  border-bottom: 5px solid #006699;
+  transition: all 70ms ease 0s;
+
+}
+
+.main-nav ul a {
+  padding: 0 10px 40px 10px;
+}
+
+.main-bar li {
+  list-style: none;
+}
+
+.main-icon {
+  font: 31px/67px 'Open sans', sans-serif;
+  background-color: #11749e;
+  box-shadow: 12px 8px 0 rgba(204, 204, 204, 0.7);  
+  text-transform: uppercase;
+  text-align: center;
+  height: 67px;
+  width: 67px;
+}
+
+.main-info {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h1 {
+  margin-top: 275px;
+  margin-bottom: 20px;
+}
+
+.main-info p {
+  color: #006699;
+  font: 25px/50px 'Gotham-Medium', sans-serif;
+  letter-spacing: 20px;
+  padding-left: 20px;
+}
+
+.main-info button {
+  background-color: transparent;
+  border: none;
+  margin-top: 80px;
+  margin-bottom: 100px;
+}
+.main-info button span {
+  display: block;
+  font: 13px/22px 'MyraidPro', sans-serif;
+}
+
+.main-info button i {
+  margin-top: 20px;
+  padding: 16px 20px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+}
+
+/* end or no? */
