@@ -388,4 +388,65 @@ div[class*="designer-"] h3 {
   margin: 0;
 }
 
+/* ====================
+      Akita-mobile
+======================*/
+.akita-mobile {
+  background: url('/img/bg-akita.jpg') center center no-repeat;
+  background-size: cover;
+}
+
+.akita-mobile-info {
+  display: inline-block;
+  vertical-align: top;
+  height: 395px;
+  width: 470px;
+  padding-top: 120px;
+  margin-right: 250px;
+}
+
+.container-a {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.akita-mobile-info h3 {
+  font-size: 25px;
+  margin-bottom: 30px;
+  margin-top: 0;
+}
+
+.akita-mobile-info p {
+  margin-bottom: 40px;
+}
+
+.akita-mobile-span span {
+  display: inline-block;
+  background-color: #11749e;
+  text-transform: uppercase;
+  padding: 8px 20px;
+  margin-bottom: 24px;
+}
+
+.akita-mobile-span {
+  white-space: pre-line;
+  display: inline-block;
+}
+
+.akita-mobile-span span:first-child {
+  padding-right: 135px;
+}
+
+.akita-mobile-span span:nth-child(2) {
+  padding-right: 220px;
+}
+
+.akita-mobile-span span:last-child {
+  padding-right: 160px;
+  margin-bottom: 0;
+}
+
+
+
+
 /* end or no ? */
