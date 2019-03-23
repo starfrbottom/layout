@@ -45,6 +45,18 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Roboto-BoldCondensed';
+  src: url('/font/Roboto/Roboto-BoldCondensed.eot');
+  src: url('/font/Roboto/Roboto-BoldCondensed.eot?#iefix') format('embedded-opentype'),
+       url('/font/Roboto/Roboto-BoldCondensed.ttf') format('truetype'),
+       url('/font/Roboto/Roboto-BoldCondensed.woff') format('woff'),
+       url('/font/Roboto/Roboto-BoldCondensed.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 
 /* ====================
         Typography
@@ -64,6 +76,8 @@ h1 {
 
 h2 {
     font: 38px/45px  sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 h3 {
@@ -91,6 +105,30 @@ a:valid {
     max-width: 1400px;
     margin: 0 auto;
     padding: 0 15px;
+}
+
+.container-p {
+  padding-top: 150px;
+}
+
+.center-wrap {
+  text-align: center;
+}
+
+.center-wrap h2 {
+  position: relative;
+  z-index: 2;
+}
+
+.center-wrap h2:before {
+  content: '';
+  font-family: 'Roboto-BoldCondensed', sans-serif;
+  position: absolute;
+  font-size: 248px;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  z-index: -1;
 }
 
 /* ====================
@@ -194,4 +232,160 @@ h1 {
   border: 1px solid #fff;
 }
 
-/* end or no? */
+/* ====================
+        Agency
+======================*/
+.awesome {
+  background-color: #11749e;
+  padding-bottom: 120px;
+}
+
+.center-wrap-agency h2:before{
+  content: 'W';
+  color: #3c8daf;
+}
+
+.advantages {
+  margin-top: 111px;
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+div[class*="advantages-"],
+div[class*="designer"] {
+  width: 270px;
+  text-align: center;
+}
+
+div[class*="advantages-"] img {
+  padding-top: 10px;  
+}
+
+div[class*="advantages-"] h3 {
+  margin-top: 15px;
+  margin-bottom: 11px;
+}
+
+.img-advantages {
+  display: inline-block;
+  padding: 30px 40px;
+  border-radius: 50%;
+  background-color: #2e85aa;
+}
+
+/* ====================
+        Akita
+======================*/
+.akita-info,
+.akita-photo {
+  display: inline-block;
+  width: 50%;
+  vertical-align: top;
+}
+
+.akita-info {
+  box-sizing: border-box;
+  padding: 100px 100px 199px 100px;
+}
+
+.akita-info:first-child {
+   padding: 100px 10px 199px 220px;
+}
+
+.akita-info span {
+  font: 13px/24px 'Gotham-Book', sans-serif;
+  margin-bottom: 8px;
+}
+
+.akita-info h3 {
+  padding-left: 4px;
+  font-size: 25px;
+  margin: 0;
+}
+
+.akita-info p {
+  white-space: pre-line;
+  margin-top: 36px;
+  margin-bottom: 0;
+}
+
+.akita-photo {
+  margin-bottom: -7px;
+}
+
+.akita-photo img {
+  width: 100%;
+}
+
+.akita :nth-child(2n) {
+  margin-left: -5px;
+}
+
+.akita :nth-child(4) {
+  background-color: #ffffff;
+  color: #222222
+}
+
+/* ====================
+        Blog
+======================*/
+.blog {
+  background-color: #ffffff;
+  color: #222222;
+  padding-bottom: 106px;
+}
+
+.center-wrap-blog h2:before{
+  content: 'B';
+  color: #e2e2e2;
+}
+
+.center-wrap-blog p {
+  margin-top: 87px;
+  font: 30px/37px 'Gotham-Book';
+}
+
+div[class*="designer-"] h3 {
+  color: #11749e;
+  margin-top: 36px;
+  margin-bottom: 17px;
+}
+/* ====================
+      Additionally
+======================*/
+.additionally {
+  background-color: #11749e;
+  padding-top: 115px;
+  padding-bottom: 160px;
+}
+
+.additionally .container{
+  display: flex;
+  justify-content: space-around;
+}
+
+.additionally-info {
+  display: inline-block;
+  position: relative;
+  width: 455px;
+  height: 90px;
+  padding-left: 100px;
+}
+
+.additionally-info::before {
+  content: '';
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  background: url(/img/Big-write.png) center center no-repeat;
+  background-size: cover;
+  top: 12px;
+  left: 0;
+}
+
+.additionally-info p {
+  margin: 0;
+}
+
+/* end or no ? */
